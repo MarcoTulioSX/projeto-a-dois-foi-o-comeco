@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --cor1: #00b3ad49;
+    --cor2: #006663;
+    --cor3: #FF6B1A;
+    --cor4: #b33f00f7;
+    --cor5: #662400;
+
+    --fonte1: "Passion One", sans-serif;
+    --fonte2: "Sriracha", cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+header {
+    background-color: var(--cor3);
+    color: var(--cor2);
+    text-align: center;
+    padding: 5vh;
+    font-family: var(--fonte1);
+    font-variant: small-caps;
+}
+
+header h1 {
+    font-size: 5em;
+    font-weight: lighter;
+}
+
+header p {
+    color: var(--cor2);
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 1.5em;
+}
+
+main {
+    background-color: var(--cor1);
+    color: var(--cor5);
+}
+
+section {
+    font-family: var(--fonte2);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 3vw;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.imagem {
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.822);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed ;
+}
+
+#img01 {
+    background-image: url(../imagens/WhatsApp\ Image\ 2026-01-12\ at\ 23.22.56.jpeg);
+    
+}
+
+#img02 {
+    background-image: url(../imagens/WhatsApp\ Image\ 2026-01-12\ at\ 23.24.39.jpeg);
+}
+
+footer {
+    background-color: var(--cor3);
+    padding: 10px;
+    text-align: center;
+    font-size: 2.3vw;
+    color: var(--cor2);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
