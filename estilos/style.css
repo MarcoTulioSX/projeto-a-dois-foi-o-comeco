@@ -51,7 +51,7 @@ section {
     padding-bottom: 40px;
     text-align: center;
     font-size: 3vw;
-    max-width: 70vw;
+    width: 75vw;
     margin: auto;
     border-radius: 30px;
 }
@@ -78,8 +78,10 @@ footer {
     background-color: var(--cor3);
     padding: 10px;
     text-align: center;
-    font-size: 2.3vw;
+    font-size: 2vw;
     color: var(--cor2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 footer a {
