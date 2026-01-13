@@ -53,6 +53,7 @@ section {
     font-size: 3vw;
     max-width: 70vw;
     margin: auto;
+    border-radius: 30px;
 }
 
 .imagem {
